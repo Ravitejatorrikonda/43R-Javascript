@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 
+    DOM:-
+    ----
+     ->API
+     ->Events
+     ->BOM
+
+     Clousers
+     Object and string
+
+     ->DOM :-
+       Document Object Model:-
+
+    -->
+</head>
+<body>
+   <!-- <a href="#">Link1</a>
+   <a href="#">Link2</a>
+   <a href="#">Link3</a> -->
+    <script>
+
+// let links=document.links
+
+
+// for(let link of links){
+//  console.log(link.innerText);
+    
+// }
+
+// let p= document.createElement("p")
+// p.innerText="ELement creation"
+
+
+// document.body.appendChild(p)
+// console.log(p)
+
+// let ul=document.createElement("ul")
+// let li=document.createElement("li")
+// li.innerText="Gaya3"
+// ul.appendChild(li)
+// document.body.appendChild(ul)
+// console.log(li);
+
+// console.log(ul);
+
+let ul=document.createElement("ul")
+for(let i=1;i<=5;i++){
+    let li=document.createElement("li")
+    li.innerText=i
+    ul.appendChild(li)
+    
+    
+}
+document.body.appendChild(ul)
+console.log(ul);
+
+      
+    </script>
+</body>
+</html>
