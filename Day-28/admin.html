@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container>div {
+            /* border: 2px solid; */
+            /* display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(250px,1fr)); */
+
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+        }
+
+        div {
+            border: 2px solid;
+        }
+
+        img {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <input type="hidden" id="id">
+        <input type="text" placeholder="enter name" id="name">
+        <input type="text" placeholder="enter image link" id="img">
+
+
+    </div>
+
+
+    <div id="container">
+
+    </div>
+    <script src="./admin.js"></script>
+</body>
+
+</html>

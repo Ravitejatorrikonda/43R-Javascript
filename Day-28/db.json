@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "name": "Rambabu",
+      "image": "https://i0.wp.com/hindupost.in/wp-content/uploads/2025/01/brahmanandam-vedas-manusmriti-savitribai-phule-women-education-speech-teacher.jpg?resize=696%2C391&ssl=1"
+    },
+    {
+      "id": "2",
+      "name": "pradeep",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRapF8yiLUzfrVBWKmBAKqNFCuRdzgy_R08sQ&s"
+    },
+    {
+      "id": "3",
+      "name": "sameekha",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRapF8yiLUzfrVBWKmBAKqNFCuRdzgy_R08sQ&s"
+    }
+  ]
+}
