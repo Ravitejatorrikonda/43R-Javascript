@@ -67,7 +67,7 @@ async function editData(id) {
             throw new Error("Data not getting");
 
         }
-        let student=await res.json();
+        let student = await res.json();
         studentId.value = student.id
         studentName.value = student.name
         image.value = student.image
@@ -80,7 +80,40 @@ async function editData(id) {
 
 
 }
+//sendData
 
+async function sendData() {
+
+    let studentId = document.getElementById("id").value
+    let name = document.getElementById("name").value
+    let img = document.getElementById("img").value
+    let obj = {
+        "name": name,
+       "image": img
+
+    }
+    let URL=studentId?`http://localhost:3000/data/${studentId}`: "http://localhost:3000/data/";
+    let studentmthod=studentId?"PUT":"post";
+    let res = await fetch(URL, {
+        "method": studentmthod,
+        "headers": {
+            "content-Type": "application/json"
+        },
+        "body": JSON.stringify(obj)
+
+
+    })
+    try {
+        if (!res) {
+            throw new Error("Data not updated");
+
+        }
+        alert("data updated successfully")
+    } catch (error) {
+        console.log(error)
+    }
+
+}
 
 
 
